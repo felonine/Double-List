@@ -20,7 +20,7 @@
 
 # Как запустить файл? 
 ```bash
-g++ .cpp -o runner 
+g++ Double-List.cpp -o runner 
 .\runner.exe
 ```
 
