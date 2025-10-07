@@ -1,4 +1,32 @@
 # Double-List
-![loadgif]("https://media1.tenor.com/m/ITc-LqKpHCcAAAAC/millionaire-mindset.gif") 
+![loadgif](https://media1.tenor.com/m/ITc-LqKpHCcAAAAC/millionaire-mindset.gif) 
 
  
+---
+Написал обычный double список где указатель next указывает на следующий элемент, a указатель prev указывает на предыдущий элемент
+---
+
+# Принципы 
+
+--- 
+* head - указатель на первый элемент в списке 
+* tail - указатель на последний элемент в списке
+* data - данные тек объекта (элемента)
+* next - указатель на следующий элемент
+* prev - указатель на предыдущий элемент
+* Методы классические по вставке и удалению т.к - push_back(), push_front(), pop_back() и тд....
+
+---
+
+# Как запустить файл? 
+```bash
+g++ .cpp -o runner 
+.\runner.exe
+```
+
+![gif](https://i.pinimg.com/originals/82/f3/80/82f3802d3f372c7f87228c63b967ad75.gif)
+
+# Последнее обновление +
+
+* Добавил метод erase() - удаление произвольного элемента в списке.
+* Добавил класс исключение, который будет отбрасывать исключение (наследован от std::exception)
